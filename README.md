@@ -4,24 +4,20 @@
 
 A dynamic and easy-to-use Excel-based tool to track progress toward annual KPI goals through monthly targets, performance trends, and goal simulation. Designed for program managers, analysts, and teams who want to monitor and course-correct KPI achievement using just three inputs.
 
----
 
-## 🚀 Features
+## Features
 
-* ✅ **Real-time KPI simulation** based on performance trends
-* 🧮 **Auto-calculating monthly targets** from Final Goal, Initial Value, and Due Date
-* 📊 **Interactive visualizations** to compare Monthly Targets vs. Actuals
-* 🧠 **Supports 3 types of KPIs**:
+**Real-time KPI simulation** based on performance trends
+**Auto-calculating monthly targets** from Final Goal, Initial Value, and Due Date
+**Interactive visualizations** to compare Monthly Targets vs. Actuals
+**Supports 3 types of KPIs**:
 
   * Numerical
   * Percentage-based
   * Average metrics
-* ⚡ **Auto-adjusts for Tailwinds & Headwinds**
-* 🔄 Fully dynamic — minimal manual effort required
+ **Auto-adjusts for Tailwinds & Headwinds**
 
----
-
-## 📂 Sheet Structure
+## Sheet Structure
 
 The workbook includes three sheets, each tailored for a specific KPI type:
 
@@ -31,7 +27,7 @@ The workbook includes three sheets, each tailored for a specific KPI type:
 
 ---
 
-## ✍️ How to Use
+## How to Use
 
 ### Step 1: Input Manual Values
 
@@ -43,7 +39,6 @@ Only fill in the **Manual Inputs** table. All calculations and charts will updat
 | **Initial KPI Value** | Your starting KPI value                 | `I38`      |
 | **Actuals**           | Enter actuals achieved each month       | `D37:D48`  |
 
----
 
 ### Step 2: Set the Timeline
 
@@ -51,8 +46,6 @@ Adjust the "Month" column (`C37:C48`) to match your goal duration:
 
 * Use **“Click to Add”** to include additional months
 * Use **“Click to Remove”** to shorten the timeline
-
----
 
 ### Step 3: Add (Optional) Headwinds & Tailwinds
 
@@ -62,13 +55,11 @@ Input these values in `F37:F48` if applicable:
 * **Tailwinds** = Enter **positive** numbers for accelerators or favorable events
   These are automatically factored into the monthly projections.
 
----
 
 ### Step 4: Enter Goal Meta-Data
 
 Provide context for your KPI in `C17:E23` to help track ownership, program relevance, and scope.
 
----
 
 ### Step 5: Review Calculations & Charts
 
@@ -77,9 +68,8 @@ All other fields (Monthly Targets, MoM, YTD, etc.) are auto-calculated. Graphs w
 * Monthly Targets vs. Actuals
 * Overall KPI progress
 
----
 
-## 🛠️ Requirements
+## Requirements
 
 * Excel 2016 or later (for full macro and chart compatibility)
 * Macros enabled
