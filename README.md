@@ -35,21 +35,21 @@ Only fill in the **Manual Inputs** table. All calculations and charts will updat
 
 | Field                 | Description                             | Cell/Range |
 | --------------------- | --------------------------------------- | ---------- |
-| **Final Goal**        | Enter the target KPI value for year-end | `I37`      |
-| **Initial KPI Value** | Your starting KPI value                 | `I38`      |
-| **Actuals**           | Enter actuals achieved each month       | `D37:D48`  |
+| **Final Goal**        | Enter the target KPI value for year-end | `I20`      |
+| **Initial KPI Value** | Your starting KPI value                 | `I21`      |
+| **Actuals**           | Enter actuals achieved each month       | `D30:D41`  |
 
 
 ### Step 2: Set the Timeline
 
-Adjust the "Month" column (`C37:C48`) to match your goal duration:
+Adjust the "Month" column (`C30:C41`) to match your goal duration:
 
 * Use **“Click to Add”** to include additional months
 * Use **“Click to Remove”** to shorten the timeline
 
 ### Step 3: Add (Optional) Headwinds & Tailwinds
 
-Input these values in `F37:F48` if applicable:
+Input these values in `F30:F41` if applicable:
 
 * **Headwinds** = Enter **negative** numbers for blockers or setbacks
 * **Tailwinds** = Enter **positive** numbers for accelerators or favorable events
@@ -58,7 +58,7 @@ Input these values in `F37:F48` if applicable:
 
 ### Step 4: Enter Goal Meta-Data
 
-Provide context for your KPI in `C17:E23` to help track ownership, program relevance, and scope.
+Provide context for your KPI in `C18:E24` to help track ownership, program relevance, and scope.
 
 
 ### Step 5: Review Calculations & Charts
